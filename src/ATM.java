@@ -8,4 +8,11 @@ public class ATM {
 		this.balance = balance;
 	}
 	
+	public double deposit (String inputID, double depositAmount) {
+		if (!inputID.equals(iD)) {
+			iD = inputID;
+		}
+		balance += depositAmount;
+		return balance;
+	}
 }
