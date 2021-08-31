@@ -16,6 +16,7 @@ public class ATM {
 			toRet.append(code[i]);
 		}
 		iD = toRet.toString();
+		System.out.println("Your ID: " + iD);
 	}
 	
 	public double deposit (String inputID, double depositAmount) {

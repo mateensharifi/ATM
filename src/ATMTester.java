@@ -5,5 +5,6 @@ public class ATMTester {
 		System.out.println(test.getID());
 		System.out.println(test.deposit("1243235", 5));
 		System.out.println(test.getID());
+		System.out.println(test.deposit("4", 12));
 	}
 }
