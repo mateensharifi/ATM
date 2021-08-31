@@ -15,4 +15,7 @@ public class ATM {
 		balance += depositAmount;
 		return balance;
 	}
+	public String getID() {
+		return iD;
+	}
 }
